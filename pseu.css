@@ -1,0 +1,31 @@
+.nave ul li a{
+    display: inline-block;
+    margin: 5px;
+    color: rgb(175, 33, 81);
+    transition: 0.2s;
+}
+
+a:active{
+    color: rgb(37, 0, 29);
+}
+
+a:hover{
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(124, 19, 45, 0.3);
+}
+
+
+.text p:nth-last-child(2) {
+    color: rgb(255, 0, 179);
+}
+
+div p:first-child{
+    color: rgb(183, 48, 195);
+    font-weight: bold;
+}
+
+div > p:nth-of-type(2){
+    color: rgb(13, 0, 128);
+    font-weight:bold ;
+}

@@ -1,0 +1,55 @@
+.text{
+    box-sizing: border-box;
+    width: 100%;
+    margin:20px;
+}
+
+.text h1{
+    color: rgb(114, 26, 165);
+    text-align: center;
+}
+
+.text h1::after{
+    content: ' ';
+    width:30%;
+    height: 2px;
+    display:block;
+    background-color: rgb(156, 35, 61);
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.text h1::before{
+    content: ' ';
+    width: 30%;
+    height: 2px;
+    display: block;
+    background-color: rgb(36, 149, 194);
+    margin: 0 auto;
+}
+
+p::first-letter {
+    color: rgb(37, 53, 197);
+    text-transform: uppercase;
+  }
+
+p::first-line {
+    color: rgb(0, 238, 255);
+    text-transform: uppercase;
+  }
+/*FLOAT----------------*/
+.text img{
+    float:left;
+    margin: 20px;
+}
+
+.text p{
+    clear: both;
+}
+/*Media query----------------*/
+@media(max-width:760px){
+    .text{
+        width: 100%;
+        margin: 10px;
+    }
+}
